@@ -8,7 +8,7 @@
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 10px 200px 50px 200px;
+    padding: 10px 20% 50px 20%;
 }
 
 h1 {
@@ -39,17 +39,25 @@ a {
     display: flex;
     justify-content: space-between;
     color: #F9FAF8;
-    padding: 10px 200px 50px 200px;
+    padding: 10px 20% 70px 20%;
 
 }
 
 .right-header {
     height: 100px;
-    width: 600px;
+    width: 450px;
+}
+
+.left-header {
+    width: 400px;
+}
+
+.left-header p {
+    padding-bottom: 7px;
 }
 
 .information {
-    padding: 10px 200px 50px 200px;
+    padding: 40px 200px 80px 200px;
 }
 
 .information-header {
@@ -62,7 +70,7 @@ a {
 .inf-section {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .inf-piece {
@@ -77,10 +85,18 @@ a {
 
 .comment {
     background-color: #E5E7EB;
+    padding: 90px 25% 70px 25%;
+}
+
+.comment-text {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
-    padding: 10px 200px 50px 200px;
+}
+
+.comment-signature {
+    text-align: right;
+    color: #1F2937;
 }
 
 button {
@@ -91,6 +107,22 @@ button {
 }
 
 .subscription {
+    display: flex;
+    justify-content: space-between;
     background-color: #3882F6;
-    padding: 10px 200px 50px 200px;
+    margin: 60px 20%;
+    padding: 40px 75px;
+    border-radius: 7px;
+    color: white;
+}
+
+.subscription button {
+    border: solid white 2px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
