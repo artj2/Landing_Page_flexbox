@@ -1,0 +1,55 @@
+* {
+    font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.navigation {
+    background-color: #1F2937;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.left-navigation {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.right-navigation {
+    font-size: 18px;
+    list-style: none;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.comment {
+    background-color: #E5E7EB;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.subscription {
+    background-color: #3882F6;
+}
