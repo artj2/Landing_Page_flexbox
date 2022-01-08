@@ -3,12 +3,12 @@
     margin: 0;
 }
 
+
 .navigation {
     background-color: #1F2937;
-}
-
-.header {
-    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px 50px 200px;
 }
 
 h1 {
@@ -30,12 +30,49 @@ a {
 .right-navigation {
     font-size: 18px;
     list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+    padding: 10px 200px 50px 200px;
+
+}
+
+.right-header {
+    height: 100px;
+    width: 600px;
+}
+
+.information {
+    padding: 10px 200px 50px 200px;
 }
 
 .information-header {
     font-size: 36px;
     font-weight: 800;
     color: #1F2937;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.inf-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.inf-piece {
+    width: 150px;
+    text-align: center;
+}
+.inf-piece img {
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;
 }
 
 .comment {
@@ -43,13 +80,17 @@ a {
     font-style: italic;
     font-size: 36px;
     color: #1F2937;
+    padding: 10px 200px 50px 200px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 7px;
+    padding: 4px 14px;
 }
 
 .subscription {
     background-color: #3882F6;
+    padding: 10px 200px 50px 200px;
 }
